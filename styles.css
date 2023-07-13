@@ -1,0 +1,101 @@
+:root {
+	--dreamless-sleep: #121010ff;
+	--bats-cloak: #1e1919ff;
+	--honey-bee: #fedfa3;
+}
+
+* {
+	margin: auto;
+	font-size: 18px;
+}
+body {
+	background-color: var(--bats-cloak);
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+.title-section {
+	background-color: var(--bats-cloak);
+}
+
+.title-img {
+	width: 800px;
+	height: auto;
+	border: 0.2rem solid var(--dreamless-sleep);
+	margin-top: 0.6rem;
+
+	border-radius: 6rem;
+}
+h1 {
+	color: var(--honey-bee);
+	font-family: Brush Script MT, cursive;
+	font-size: 3rem;
+
+	width: 100%;
+	height: auto;
+
+	padding: 0.4rem;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-top: 1rem;
+
+	list-style-type: none;
+}
+
+.links li {
+	display: flex;
+
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+
+	background-color: orange;
+}
+
+a {
+	text-decoration: none;
+}
+
+.links li a {
+	color: var(--dreamless-sleep);
+}
+
+.links li:hover {
+	background-color: var(--honey-bee);
+}
+
+/** recipe styles **/
+.nav-bar {
+	background-color: var(--dreamless-sleep);
+	text-align: center;
+	padding: 0.4rem;
+}
+.nav-bar a {
+	background-color: var(--dreamless-sleep);
+	color: white;
+}
+.nav-bar a:hover {
+	color: orange;
+}
+.recipe-img {
+	border-radius: 2rem;
+}
+.text {
+	background-color: var(--honey-bee);
+	margin: 1rem 8rem;
+	padding: 2rem;
+	border-radius: 1rem 1rem 0rem 0rem;
+}
+ol li {
+	text-align: left;
+}
+h2 {
+	margin: 2rem 0rem 1rem 0rem;
+}
+
+.ingredients li {
+	display: flex;
+}
